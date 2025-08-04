@@ -14,7 +14,7 @@ Welcome to my GitHub portfolio! I'm a **PMO Specialist** since May 2022. I suppo
 
 ## 🧰 Portfolio Projects
 
-This repository showcases a variety of projects that reflect my experience in project coordination, data analysis, and dashboard development. Each branch represents a unique initiative or learning milestone:
+  [This repository](https://github.com/nerwuuus/portfolio-projects) showcases a variety of projects that reflect my experience in project coordination, data analysis, and dashboard development. Each branch represents a unique initiative or learning milestone:
 
 ### 🔄 `main`
 The default branch serves as the central hub for all portfolio content and documentation.
