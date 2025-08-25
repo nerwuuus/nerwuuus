@@ -36,11 +36,6 @@ A hybrid solution combining **Excel**, **SQL**, and **PowerShell scripts** to ma
 - Automation of reporting tasks using PowerShell
 - Interactive Excel dashboards for HR insights
 
-### ☕ `coffee-sales-beginner-project`
-A beginner-friendly project using **SQL scripts** and a simple **Power BI dashboard** to analyse coffee shop sales. Ideal for:
-- Practising joins, aggregations, and filtering
-- Visualising trends in product performance and customer behaviour
-
 ### 📈 `Tableau-and-Power-BI-beginner-dashboards`
 A collection of dashboards created during my learning journey with **Tableau** and **Power BI**. Includes:
 - Sales performance visualisations
