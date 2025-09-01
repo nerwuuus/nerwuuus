@@ -1,7 +1,7 @@
 
 # 👋 Hi, I'm Patryk Żychlewicz!
 
-Welcome to my GitHub portfolio! I'm a **PMO Specialist** since May 2022. I supported three prominent European clients, helping drive efficiency, transparency, and continuous improvement across projects.
+Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I supported three prominent European clients, helping drive efficiency, transparency, and continuous improvement across projects.
 
 ## 🧠 About Me
 
@@ -34,7 +34,6 @@ An **Excel-based report** used in a corporate environment to monitor service act
 A hybrid solution combining **Excel**, **SQL**, and **PowerShell scripts** to manage and analyse employee time registration data. Highlights:
 - Data extraction and transformation via SQL
 - Automation of reporting tasks using PowerShell
-- Interactive Excel dashboards for HR insights
 
 ### 📈 `Tableau-and-Power-BI-beginner-dashboards`
 A collection of dashboards created during my learning journey with **Tableau** and **Power BI**. Includes:
