@@ -30,8 +30,8 @@ An **Excel-based report** used in a corporate environment to monitor service act
 - Conditional formatting for status indicators
 - Automated calculations for SLA tracking
 
-### ⏱️ `[sql-employee-time-db](https://github.com/nerwuuus/sql-employee-time-db)`
-A hybrid solution combining **Excel**, **SQL**, and **PowerShell scripts** to manage and analyse employee time registration data. Highlights:
+### ⏱️ `sql-employee-time-db`
+A [database created](https://github.com/nerwuuus/sql-employee-time-db) to manage and analyse employee time registration data. Highlights:
 - Data extraction and transformation via SQL
 - Automation of reporting tasks using PowerShell
 
