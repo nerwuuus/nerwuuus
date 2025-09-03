@@ -12,7 +12,33 @@ Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I
 - 💡 Always seeking improvements and favouring straightforward, effective solutions.
 - 📚 Lifelong learner and enthusiastic knowledge sharer.
 
-## 🧰 Portfolio Projects
+## 🧰 sql-employee-time-db Repository (Large-Scale Project)
+  [This portfolio project](https://github.com/nerwuuus/sql-employee-time-db/tree/main) showcases a comprehensive database solution designed for analytics, from structured data modelling to generating actionable insights. This project is the result of a full reconstruction of the [ess-time-registration](https://github.com/nerwuuus/portfolio-projects/tree/ess-time-registration) project. 
+  <br>**Due to the presence of personal data, raw datasets are not available for external use.**
+
+### 📂 sql-employee-time-db Repository Structure
+```
+sql-employee-time-db/
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_model.drawio               # Draw.io file for data model (star schema)
+│   ├── naming_convention.md            # Naming guideline
+│   ├── data_catalog.md                 # Catalog of datasets
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+
+```
+
+## 🧰 portfolio-projects Repository (Small-Scale Projects)
 
   [This repository](https://github.com/nerwuuus/portfolio-projects) showcases a variety of projects that reflect my experience in data analysis and dashboard development. Each branch represents a unique initiative or learning milestone:
 
@@ -30,8 +56,8 @@ An **Excel-based report** used in a corporate environment to monitor service act
 - Conditional formatting for status indicators
 - Automated calculations for SLA tracking
 
-### ⏱️ `sql-employee-time-db`
-A [database created](https://github.com/nerwuuus/sql-employee-time-db) to manage and analyse employee time registration data. Highlights:
+### ⏱️ `ess-time-registration`
+This is the first and **no longer used** version of a database created to manage and analyse employee time registration data. It consists of staging and production tables. Highlights:
 - Data extraction and transformation via SQL
 - Automation of reporting tasks using PowerShell
 
@@ -46,6 +72,48 @@ An intermediate-level **Tableau dashboard** showcasing more advanced features su
 - Calculated fields
 - Dynamic filters
 - Multi-source data integration
+
+### 📂 portfolio-projects Repository Structure
+```
+portfolio-projects/
+│
+├── main/                               
+│   ├── README.md                       
+│
+├── Tableau-and-Power-BI-beginner-dashboards/    
+│   ├── README.md                       
+│   ├── Airbnb 2016 Dashboard Project.twb
+│   ├── Power BI - Data Jobs Dashboard.pbix
+│   ├── Power BI - Final Project.xlsx
+│   ├── Power BI Survey Project.pbix
+│   ├── Tableau Project.xlsx
+│
+├── Tableau-intermediate-dashboard/     
+│   ├── README.md                       
+│   ├── Sales dashboard.twb
+│
+├── ess-time-registration/              
+│   ├── README.md                       
+│   ├── SQL
+│       ├── Database set-up
+│       ├── WBS analytics
+│   ├── 1 Update production tables.sql
+│   ├── 2 Duplicates check.sql
+│   ├── 3 Refresh production tables.sql
+│
+├── program-status-report/                                        
+│   ├── README.md                       
+│   ├── Applied steps PowerQuery.png
+│   ├── List of PowerQuery queries.png
+│   ├── Program Board Meeting.pbix
+│   ├── Program Board Meeting.xlsx
+│
+├── service-activation-tracker/         
+│   ├── README.md                       
+│   ├── Service Activation Tracker.xlsx
+│
+
+```
 
 ## 📫 Let's Connect
 
