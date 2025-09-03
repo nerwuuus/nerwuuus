@@ -40,38 +40,7 @@ sql-employee-time-db/
 
 ## 🧰 portfolio-projects Repository (Small-Scale Projects)
 
-  [This repository](https://github.com/nerwuuus/portfolio-projects) showcases a variety of projects that reflect my experience in data analysis and dashboard development. Each branch represents a unique initiative or learning milestone:
-
-### 🔄 `main`
-The default branch serves as the central hub for all portfolio content and documentation.
-
-### 📊 `program-status-report`
-A professional dashboard built using **Excel** and **Power BI**, designed to track the status of multiple IT programs. It includes:
-- Visual summaries of project health
-- Milestone tracking
-- Risk and issue management views
-
-### 🛠️ `service-activation-tracker`
-An **Excel-based report** used in a corporate environment to monitor service activation timelines and dependencies. Features include:
-- Conditional formatting for status indicators
-- Automated calculations for SLA tracking
-
-### ⏱️ `ess-time-registration`
-This is the first and **no longer used** version of a database created to manage and analyse employee time registration data. It consists of staging and production tables. Highlights:
-- Data extraction and transformation via SQL
-- Automation of reporting tasks using PowerShell
-
-### 📈 `Tableau-and-Power-BI-beginner-dashboards`
-A collection of dashboards created during my learning journey with **Tableau** and **Power BI**. Includes:
-- Sales performance visualisations
-- Customer segmentation
-- Time-series analysis
-
-### 📉 `Tableau-intermediate-dashboard`
-An intermediate-level **Tableau dashboard** showcasing more advanced features such as:
-- Calculated fields
-- Dynamic filters
-- Multi-source data integration
+  [This repository](https://github.com/nerwuuus/portfolio-projects) showcases a variety of projects that reflect my experience in data analysis and dashboard development. Each branch represents a unique initiative or learning milestone.
 
 ### 📂 portfolio-projects Repository Structure
 ```
@@ -114,6 +83,37 @@ portfolio-projects/
 │
 
 ```
+
+### 🔄 `main`
+The default branch serves as the central hub for all portfolio content and documentation.
+
+### 📊 `program-status-report`
+A professional dashboard built using **Excel** and **Power BI**, designed to track the status of multiple IT programs. It includes:
+- Visual summaries of project health
+- Milestone tracking
+- Risk and issue management views
+
+### 🛠️ `service-activation-tracker`
+An **Excel-based report** used in a corporate environment to monitor service activation timelines and dependencies. Features include:
+- Conditional formatting for status indicators
+- Automated calculations for SLA tracking
+
+### ⏱️ `ess-time-registration`
+This is the first and **no longer used** version of a database created to manage and analyse employee time registration data. It consists of staging and production tables. Highlights:
+- Data extraction and transformation via SQL
+- Automation of reporting tasks using PowerShell
+
+### 📈 `Tableau-and-Power-BI-beginner-dashboards`
+A collection of dashboards created during my learning journey with **Tableau** and **Power BI**. Includes:
+- Sales performance visualisations
+- Customer segmentation
+- Time-series analysis
+
+### 📉 `Tableau-intermediate-dashboard`
+An intermediate-level **Tableau dashboard** showcasing more advanced features such as:
+- Calculated fields
+- Dynamic filters
+- Multi-source data integration
 
 ## 📫 Let's Connect
 
