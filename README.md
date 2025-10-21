@@ -16,6 +16,18 @@ Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I
   [This portfolio project](https://github.com/nerwuuus/sql-employee-time-db/tree/main) showcases a comprehensive database solution designed for analytics, from structured data modelling to generating actionable insights. This project is the result of a full reconstruction of the [ess-time-registration](https://github.com/nerwuuus/portfolio-projects/tree/ess-time-registration) project. 
   <br>**Due to the presence of personal data, raw datasets are not available for external use.**
 
+**Stack:**
+* Microsoft Excel
+* VSCode
+* Python
+* pgAdmin4
+* PostgreSQL
+* PowerShell
+* SharePoint
+* PowerQuery
+* Copilot
+
+
 ### 📂 sql-employee-time-db Repository Structure
 ```
 sql-employee-time-db/
@@ -34,17 +46,6 @@ sql-employee-time-db/
 ├── tests/                              # Test scripts and quality files
 │
 ├── how_to_update_db_instruction.md     # Project overview and instructions
-
-**Stack:**
-* Microsoft Excel
-* VSCode
-* Python
-* pgAdmin4
-* PostgreSQL
-* PowerShell
-* SharePoint
-* PowerQuery
-* Copilot
 
 ```
 
