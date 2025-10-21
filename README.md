@@ -13,8 +13,7 @@ Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I
 - 📚 Lifelong learner and enthusiastic knowledge sharer.
 
 ## 🧰 sql-employee-time-db Repository (Large-Scale Project)
-  [This portfolio project](https://github.com/nerwuuus/sql-employee-time-db/tree/main) showcases a comprehensive database solution designed for analytics, from structured data modelling to generating actionable insights. This project is the result of a full reconstruction of the [ess-time-registration](https://github.com/nerwuuus/portfolio-projects/tree/ess-time-registration) project. A Python script is used to truncate bronze layer tables and load data into them.
-  <br>**Due to the presence of personal data, raw datasets are not available for external use.**
+  [This portfolio project](https://github.com/nerwuuus/sql-employee-time-db/tree/main) showcases a comprehensive database solution designed for analytics, from structured data modelling to generating actionable insights. This project is the result of a full reconstruction of the [ess-time-registration](https://github.com/nerwuuus/portfolio-projects/tree/ess-time-registration) project. A Python script is used to truncate bronze layer tables and load data into them. **Due to the presence of personal data, raw datasets are not available for external use.**
 
 **Stack:**
 * Microsoft Excel
