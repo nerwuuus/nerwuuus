@@ -17,13 +17,13 @@ Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I
 
 **Stack:**
 * Microsoft Excel
-* VSCode
-* Python
-* pgAdmin4
+* VS Code
+* Python (pandas, matplotlib)
+* pgAdmin 4
 * PostgreSQL
 * PowerShell
 * SharePoint
-* PowerQuery
+* Power Query
 * Copilot
 
 
