@@ -49,7 +49,9 @@ sql-employee-time-db/
 
 ```
 ## 🧰 python-projects repository (small-scale projects)
+
 [This repository](https://github.com/nerwuuus/python-projects) showcases a diverse range of projects that illustrate my learning journey in Python, including the use of key data analytics libraries such as Pandas, NumPy, and Matplotlib.
+
 ---
 
 ## 🧰 portfolio-projects repository (small-scale projects)
