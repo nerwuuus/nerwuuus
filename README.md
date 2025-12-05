@@ -130,10 +130,12 @@ An intermediate-level **Tableau dashboard** showcasing more advanced features su
 - Calculated fields
 - Dynamic filters
 - Multi-source data integration
+  
+---
 
 ## 📫 Let's connect
 
-Feel free to explore my work and reach out. I'm always open to collaboration, feedback, and new learning opportunities.
+Please feel free to explore my work and reach out to me. I'm always open to collaboration, feedback, and new learning opportunities.
 
 ---
 
