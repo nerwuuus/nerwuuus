@@ -3,6 +3,8 @@
 
 Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I supported three prominent European clients, helping drive efficiency, transparency, and continuous improvement across projects.
 
+---
+
 ## 🧠 About me
 
 - 🏆 Awarded twice by my current employer in **2023** and **2024** for outstanding contributions (see attachments on my LinkedIn profile https://www.linkedin.com/in/patrykzychlewicz/).
