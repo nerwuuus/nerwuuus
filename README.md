@@ -3,7 +3,7 @@
 
 Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I supported three prominent European clients, helping drive efficiency, transparency, and continuous improvement across projects.
 
-## 🧠 About Me
+## 🧠 About me
 
 - 🏆 Awarded twice by my current employer in **2023** and **2024** for outstanding contributions (see attachments on my LinkedIn profile https://www.linkedin.com/in/patrykzychlewicz/).
 - ☕ Former **Shift Manager at Starbucks**, where I led teams and embraced servant leadership.
@@ -12,13 +12,13 @@ Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I
 - 💡 Always seeking improvements and favouring straightforward, effective solutions.
 - 📚 Lifelong learner and enthusiastic knowledge sharer.
 
-## 🧰 sql-employee-time-db Repository (Large-Scale Project)
+## 🧰 sql-employee-time-db repository (large-scale project)
   [This portfolio project](https://github.com/nerwuuus/sql-employee-time-db/tree/main) showcases a comprehensive database solution designed for analytics, from structured data modelling to generating actionable insights. This project is the result of a full reconstruction of the [ess-time-registration](https://github.com/nerwuuus/portfolio-projects/tree/ess-time-registration) project. A Python script is used to truncate bronze layer tables and load data into them. **Due to the presence of personal data, raw datasets are not available for external use.**
 
 **Stack:**
 * Microsoft Excel
 * VS Code
-* Python (pandas, matplotlib)
+* Python (Pandas, Matplotlib)
 * pgAdmin 4
 * PostgreSQL
 * PowerShell
@@ -27,7 +27,7 @@ Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I
 * Copilot
 
 
-### 📂 sql-employee-time-db Repository Structure
+### 📂 sql-employee-time-db repository structure
 ```
 sql-employee-time-db/
 │
@@ -49,12 +49,14 @@ sql-employee-time-db/
 ├── how_to_update_db_instruction.md     # Project overview and instructions
 
 ```
+## 🧰 python-projects repository (small-scale projects)
+[This repository](https://github.com/nerwuuus/python-projects) showcases a diverse range of projects that illustrate my learning journey in Python, including the use of key data analytics libraries such as Pandas, NumPy, and Matplotlib.
 
-## 🧰 portfolio-projects Repository (Small-Scale Projects)
+## 🧰 portfolio-projects repository (small-scale projects)
 
   [This repository](https://github.com/nerwuuus/portfolio-projects) showcases a variety of projects that reflect my experience in data analysis and dashboard development. Each branch represents a unique initiative or learning milestone.
 
-### 📂 portfolio-projects Repository Structure
+### 📂 portfolio-projects repository structure
 ```
 portfolio-projects/
 │
@@ -127,7 +129,7 @@ An intermediate-level **Tableau dashboard** showcasing more advanced features su
 - Dynamic filters
 - Multi-source data integration
 
-## 📫 Let's Connect
+## 📫 Let's connect
 
 Feel free to explore my work and reach out. I'm always open to collaboration, feedback, and new learning opportunities.
 
