@@ -1,13 +1,13 @@
 
 # 👋 Hi, I'm Patryk Żychlewicz!
 
-Welcome to my GitHub portfolio! I've been a **PMO Specialist** since May 2022. I supported three prominent European clients, helping drive efficiency, transparency, and continuous improvement across projects.
+Welcome to my GitHub portfolio! I'm a **Marketing Science Analyst** with a background in Project Management. Here you'll find my projects and scripts focused on SQL, Python, R, data transformation, automation, and analytics.
 
 ---
 
 ## 🧠 About me
 
-- 🏆 Awarded twice by my current employer in **2023** and **2024** for outstanding contributions (see attachments on my LinkedIn profile https://www.linkedin.com/in/patrykzychlewicz/).
+- 🏆 Awarded twice by the previous employer in **2023** and **2024** for outstanding contributions (see attachments on my LinkedIn profile https://www.linkedin.com/in/patrykzychlewicz/).
 - ☕ Former **Shift Manager at Starbucks**, where I led teams and embraced servant leadership.
 - 📊 Passionate about **Agile methodologies**, **project management**, and **data analysis**.
 - 🔍 Detail-oriented and committed to delivering top-notch services.
