@@ -1,158 +1,61 @@
+# 👋 Hi, I'm Patryk Żychlewicz
 
-# 👋 Hi, I'm Patryk Żychlewicz!
+Welcome to my GitHub portfolio! I'm a **Marketing Science Analyst** working with data pipelines, ETL processes, large-scale datasets, and marketing analytics (Marketing Mix Modelling).
 
-Welcome to my GitHub portfolio! I'm a **Marketing Science Analyst** with a background in Project Management. Here you'll find my projects and scripts focused on SQL, Python, R, data transformation, automation, and analytics.
+My current focus is on developing stronger **Data Engineering** skills through practical work with Python, SQL, PostgreSQL, Docker, Apache Airflow, Polars, and PySpark.
 
----
+## 💼 Current work
 
-## 🧠 About me
+Since January 2026, my work has included:
 
-- 🏆 Awarded twice by the previous employer in **2023** and **2024** for outstanding contributions (see attachments on my LinkedIn profile https://www.linkedin.com/in/patrykzychlewicz/).
-- ☕ Former **Shift Manager at Starbucks**, where I led teams and embraced servant leadership.
-- 📊 Passionate about **Agile methodologies**, **project management**, and **data analysis**.
-- 🔍 Detail-oriented and committed to delivering top-notch services.
-- 💡 Always seeking improvements and favouring straightforward, effective solutions.
-- 📚 Lifelong learner and enthusiastic knowledge sharer.
-  
----
+- Building and maintaining ETL pipelines in **Pentaho** for marketing analytics and reporting workflows
+- Processing and validating large CSV and Excel datasets, including nationwide sales datasets with **36+ million records**
+- Developing transformation logic for joins, aggregations, mapping tables, pivot/unpivot operations, data standardization, and metric/value-based structures
+- Debugging ETL issues and validating data quality across fact tables, dimension tables, mapping tables, and downstream datasets
+- Using **PostgreSQL** for data transformation, validation, troubleshooting, and preparation
+- Translating existing **R-based data preparation logic** into PostgreSQL queries and Pentaho transformations
+- Using **Python and pandas** for ad hoc validation, exploration, and troubleshooting
+- Preparing analysis-ready datasets for reporting, BI, and **Marketing Mix Modeling (MMM)**
+- Working with regression-based MMM workflows and supporting data preparation for statistical modeling
+- Collaborating with international teams on large-scale analytics and data preparation projects
 
-## 🧰 sql-employee-time-db repository (large-scale project)
-  [This portfolio project](https://github.com/nerwuuus/sql-employee-time-db/tree/main) showcases a comprehensive database solution designed for analytics, from structured data modelling to generating actionable insights. This project is the result of a full reconstruction of the [ess-time-registration](https://github.com/nerwuuus/portfolio-projects/tree/ess-time-registration) project. Python Pandas library is used to import WFM CSV file, clean up the data before loading it into PostgreSQL ess database bronze layer (drop and rename columns, cast the data type, remove '€' symbols, remove trailing spaces). Then, a Python script and library psycopg2 is used to truncate bronze layer tables and load data into them. **Due to the presence of personal data, raw datasets are not available for external use.**
+## 🌦️ Weather Data Processing
 
-**Stack:**
-* Microsoft Excel
-* VS Code
-* Python (Pandas, Matplotlib)
-* pgAdmin 4
-* PostgreSQL
-* PowerShell
-* SharePoint
-* Power Query
-* Copilot
+My main personal Data Engineering project is an end-to-end pipeline built around the **NOAA Global Historical Climatology Network Daily (GHCN-Daily)** dataset.
 
-### 📂 sql-employee-time-db repository structure
-```
-sql-employee-time-db/
-│
-├── documents/                          # Project documentation and architecture details
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── naming_convention.md            # Naming guideline
-│   ├── data_catalog.md                 # Catalog of datasets
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── 1_bronze/                       # Scripts for extracting and loading raw data
-│   ├── 2_silver/                       # Scripts for cleaning and transforming data
-│   ├── 3_gold/                         # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # About the project
-│                           
-├── how_to_update_db_instruction.md     # Project overview and instructions
+The project processes more than **400 million weather observations** and has evolved from a small ETL exercise into a broader Data Engineering learning environment.
 
-```
----
+🔗 [Weather Data Processing project](https://github.com/nerwuuus/data-toolkit/tree/main/weather_data_processing)
 
-## 🧰 python-projects repository (small-scale projects)
+### Main areas covered
 
-[This repository](https://github.com/nerwuuus/python-projects) showcases a diverse range of projects that illustrate my learning journey in Python, including the use of key data analytics libraries such as Pandas, NumPy, and Matplotlib.
+- PostgreSQL **Staging → Bronze → Silver → Gold** architecture
+- Historical bootstrap and recurring incremental loading
+- Natural keys, `UNIQUE` constraints, and `ON CONFLICT`
+- Automated Data Quality checks
+- Airflow orchestration
+- Docker
+- Pandas, Polars, Polars Lazy, and PySpark
+- CSV vs Parquet and Pandas vs Polars benchmarks
+- PostgreSQL performance experiments
+- Automated retrieval and processing of new NOAA observations
 
----
+The recurring pipeline is orchestrated by Airflow:
 
-## 🧰 portfolio-projects repository (small-scale projects)
+`NOAA → incremental batch → Staging → Bronze → Silver → Gold → Data Quality`
 
-  [This repository](https://github.com/nerwuuus/portfolio-projects) showcases a variety of projects that reflect my experience in data analysis and dashboard development. Each branch represents a unique initiative or learning milestone.
+### Project structure
 
-### 📂 portfolio-projects repository structure
-```
-portfolio-projects/
-│
-├── main/                               
-│   ├── README.md                       
-│
-├── Tableau-and-Power-BI-beginner-dashboards/    
-│   ├── README.md                       
-│   ├── Airbnb 2016 Dashboard Project.twb
-│   ├── Power BI - Data Jobs Dashboard.pbix
-│   ├── Power BI - Final Project.xlsx
-│   ├── Power BI Survey Project.pbix
-│   ├── Tableau Project.xlsx
-│
-├── Tableau-intermediate-dashboard/     
-│   ├── README.md                       
-│   ├── Sales dashboard.twb
-│
-├── ess-time-registration/              
-│   ├── README.md                       
-│   ├── SQL
-│       ├── Database set-up
-│       ├── WBS analytics
-│   ├── 1 Update production tables.sql
-│   ├── 2 Duplicates check.sql
-│   ├── 3 Refresh production tables.sql
-│
-├── program-status-report/                                        
-│   ├── README.md                       
-│   ├── Applied steps PowerQuery.png
-│   ├── List of PowerQuery queries.png
-│   ├── Program Board Meeting.pbix
-│   ├── Program Board Meeting.xlsx
-│
-├── service-activation-tracker/         
-│   ├── README.md                       
-│   ├── Service Activation Tracker.xlsx
-│
-
-```
-### 🔄 `main`
-The default branch serves as the central hub for all portfolio content and documentation.
-
-### 📊 `program-status-report`
-A professional dashboard built using **Excel** and **Power BI**, designed to track the status of multiple IT programs. It includes:
-- Visual summaries of project health
-- Milestone tracking
-- Risk and issue management views
-
-### 🛠️ `service-activation-tracker`
-An **Excel-based report** used in a corporate environment to monitor service activation timelines and dependencies. Features include:
-- Conditional formatting for status indicators
-- Automated calculations for SLA tracking
-
-### ⏱️ `ess-time-registration`
-This is the first and **no longer used** version of a database created to manage and analyse employee time registration data. It consists of staging and production tables. Highlights:
-- Data extraction and transformation via SQL
-- Automation of reporting tasks using PowerShell
-
-### 📈 `Tableau-and-Power-BI-beginner-dashboards`
-A collection of dashboards created during my learning journey with **Tableau** and **Power BI**. Includes:
-- Sales performance visualisations
-- Customer segmentation
-- Time-series analysis
-
-### 📉 `Tableau-intermediate-dashboard`
-An intermediate-level **Tableau dashboard** showcasing more advanced features such as:
-- Calculated fields
-- Dynamic filters
-- Multi-source data integration
-  
----
-
-## 📫 Let's connect
-
-Please feel free to explore my work and reach out to me. I'm always open to collaboration, feedback, and new learning opportunities.
-
-<!--
-**nerwuuus/nerwuuus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```text
+weather_data_processing/
+├── 00_raw_data/                  # Raw and intermediate NOAA data
+├── 01_scripts/                   # Python, SQL, notebooks and ETL scripts
+│   └── tests/                    # Development and test scripts
+├── 02_plots/                     # Generated visualizations
+├── 03_docker/                    # Docker configuration and documentation
+├── 04_data_quality_checks_sql/   # Manual and automated SQL DQ checks
+├── 06_airflow/                   # Airflow DAGs and configuration
+├── docs/                         # Architecture and project documentation
+├── compose.yaml                  # Docker Compose infrastructure
+├── requirements.txt              # Python dependencies
+└── README.md                     # Full project documentation
