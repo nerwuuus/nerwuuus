@@ -54,8 +54,39 @@ weather_data_processing/
 ├── 02_plots/                     # Generated visualizations
 ├── 03_docker/                    # Docker configuration and documentation
 ├── 04_data_quality_checks_sql/   # Manual and automated SQL DQ checks
+├── 05_postgres_optimization/     # PostgreSQL performance and indexing experiments
 ├── 06_airflow/                   # Airflow DAGs and configuration
 ├── docs/                         # Architecture and project documentation
 ├── compose.yaml                  # Docker Compose infrastructure
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Full project documentation
+```
+
+## 🧰 Technologies
+
+- **SQL / PostgreSQL**
+- **Python**
+- **Pandas**
+- **Polars**
+- **PySpark**
+- **Pentaho**
+- **Apache Airflow**
+- **Docker / Docker Compose**
+- **Apache Parquet**
+- **R**
+- **Git / GitHub**
+
+## 📚 Current learning focus
+
+I'm currently strengthening my foundations in:
+
+- Advanced SQL and window functions
+- Python
+- Data Engineering architecture
+- PySpark
+
+Later, I plan to expand the weather pipeline with **cloud storage and Databricks**.
+
+## 📫 Let's connect
+
+Feel free to explore my projects or connect with me on [LinkedIn](https://www.linkedin.com/in/patrykzychlewicz/).
