@@ -64,17 +64,16 @@ weather_data_processing/
 
 ## 🧰 Technologies
 
-- **SQL / PostgreSQL**
+- **PostgreSQL**
 - **Python**
 - **Pandas**
 - **Polars**
 - **PySpark**
 - **Pentaho**
-- **Apache Airflow**
-- **Docker / Docker Compose**
+- **Airflow**
+- **Docker**
 - **Apache Parquet**
-- **R**
-- **Git / GitHub**
+- **Git/GitHub**
 
 ## 📚 Current learning focus
 
