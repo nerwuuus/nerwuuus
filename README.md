@@ -19,7 +19,7 @@ Since January 2026, my work has included:
 - Working with regression-based MMM workflows and supporting data preparation for statistical modeling
 - Collaborating with international teams on large-scale analytics and data preparation projects
 
-## 🌦️ Weather Data Processing
+## 🌦️ NOAA Weather Data Processing Project
 
 My main personal Data Engineering project is an end-to-end pipeline built around the **NOAA Global Historical Climatology Network Daily (GHCN-Daily)** dataset.
 
